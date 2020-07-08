@@ -51,3 +51,17 @@ html, body{
 i{
   color: #00a0a0;
 }
+
+.botao{
+  background-color: #00a0a0;
+  color: white;
+  border-radius: 0;
+  padding: 20px;
+}
+
+.botao2{
+  background-color: #aaaaaa;
+  color: white;
+  border-radius: 0;
+  padding: 20px;
+}
