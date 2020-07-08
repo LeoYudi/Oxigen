@@ -18,18 +18,52 @@
   </head>
 
   <body>
-    <nav class="navbar navbar-dark fixed-top menu" style="background-color: transparent; ">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top pt-3" style="background-color: transparent;">
       <a class="navbar-brand offset-md-1" href="#">
         <img src="image/logo.png" width="159" height="47" class="d-inline-block align-top" alt="" loading="lazy">
       </a>
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item">
-          <a class="nav-link item" href="#">HOME</a>
-        </li>
-      </ul>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse pr-5" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#home">HOME <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item dropdown active">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              SERVIÇOS
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Lorem</a>
+              <a class="dropdown-item" href="#">Lorem</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Lorem</a>
+            </div>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">ATUAÇÃO</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">ABRANGÊNCIA</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">OBRAS REALIZADAS</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">GEO3D</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">CONTATO</a>
+          </li>
+        </ul>
+      </div>
     </nav>
 
-    <section class="header">
+    <section class="header" id="home">
       <div class="row text-center">
         <h1 class="container-fluid message headline showcase-left">Topografia</h1>
         <p class="message1 text-justify mr-5 ml-5 mt-3 showcase-bottom-delay">Lorem ipsum dolor sit amet, consectetur
