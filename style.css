@@ -66,6 +66,10 @@ i{
   padding: 20px;
 }
 
+.slider{
+  
+}
+
 .footer{
   margin-top: 4rem;
   margin-bottom: 4rem;
@@ -91,4 +95,28 @@ hr{
 .social{
   color: #aaaaaa;
   margin-right: 1rem;
+}
+
+.footer2{
+  background-color: #00a0a0;
+  color:white;
+  padding: 1rem;
+}
+
+.botao-footer{
+  padding: 1.2rem 2rem;
+  color: white;
+  background-color: black;
+}
+
+.botao-footer:hover{
+  color: white;
+}
+
+a:link{
+  text-decoration: none;
+}
+
+a:hover{
+  color: gray;
 }
