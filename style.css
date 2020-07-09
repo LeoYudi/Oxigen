@@ -65,3 +65,30 @@ i{
   border-radius: 0;
   padding: 20px;
 }
+
+.footer{
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  font-size: 0.7rem;
+}
+
+hr{
+  border: 2px solid #bfbfbf;
+  margin: 0 4rem;
+}
+
+.titulo-footer{
+  color: #626261;
+}
+
+.footer-item{
+  margin-left: 1.5rem;
+  text-decoration: none;
+  color: #626261;
+  font-size: 1rem;
+}
+
+.social{
+  color: #aaaaaa;
+  margin-right: 1rem;
+}
